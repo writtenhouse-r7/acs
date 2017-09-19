@@ -1,0 +1,15 @@
+---
+version: 1.0
+properties:
+  # test comment
+  service_owner: writtenhouse-r7
+  service_feature: infosec.datastore.test.feature
+  platform_service: infosec
+  repo_web_framework: python-flask
+  repo_point_of_contact: aung@rapid7.com
+  repo_secondary_point_of_contact: writtenhouse@rapid7.com
+  service_component_artifact: com.rapid7.infosec.component.example
+  artifact_build_environment: infosecCi
+  artifact_build_type: pip
+  aws_production_account: InfosecProd
+  aws_development_account: Infosec
