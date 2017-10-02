@@ -4,7 +4,7 @@ properties:
   # test comment
   service_owner: writtenhouse-r7
   service_feature: infosec.datastore.test.feature.WillTest1111
-  platform_service: infosec
+  platform_service: 
   repo_web_framework: python-flask
   repo_point_of_contact: aung@rapid7.com
   repo_secondary_point_of_contact: writtenhouse@rapid7.com
