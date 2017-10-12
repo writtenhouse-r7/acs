@@ -2,14 +2,19 @@
 version: 1.0
 properties:
   # test comment
-  service_owner: writtenhouse-r7
-  service_feature: infosec.datastore.test121212
+  service_owner: writtenhouse-r7 # should be lead developer
+  service_feature: infosec.datastore.test # TODO remove field, redundant to platform_component
   platform_service: 
+  #platform_component: ['ipims' | 'idr' | 'VM']
   repo_web_framework: python-flask
-  repo_point_of_contact: aung@rapid7.com
-  repo_secondary_point_of_contact: writtenhouse@rapid7.com
-  service_component_artifact: com.rapid7.infosec.component.example
+  #repo_framework_list:
+  # - framework 1
+  # - framework 2
+  #health_check_port: 5005
+  repo_point_of_contact: aung@rapid7.com # most likely remove
+  repo_secondary_point_of_contact: writtenhouse@rapid7.com # most likely remove, just use owner field
+  service_component_artifact: com.rapid7.ipims.panda.platform-management-app 
   artifact_build_environment: infosecCi
-  artifact_build_type: pip
+  artifact_build_type: pip # jar, war TODO, talk to developers if they'd be interested
   aws_production_account: InfosecProd
   aws_development_account: Infosec
